@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pontianak - Southeast Asian Folklore</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <nav>
+        <ul>
+            <li><a href="origin.html">Pontianak Origins</a></li>
+            <li><a href="powers.html">Pontianak Powers</a></li>
+        </ul>
+    </nav>
+    
+    <h1>Pontianak - The Ghostly Figure of Southeast Asia Folklore</h1>
+    <p>The Pontianak, also known as the Kuntilanak or Yakshi, is a mythical creature in Southeast Asia that is often depicted as a female vampire</p>
+
+    <img src="images/pontianak.jpg" alt="Pontianak">
+
+    
+
+    <h2>Select Region to Learn More</h2>
+    <select id="regionSelect">
+        <option value="indonesia">Indonesia</option>
+        <option value="malaysia">Malaysia</option>
+        <option value="singapore">Singapore</option>    
+    </select>
+    <button id="goButton" onclick="handleRegionChange()">Go to Region</button>
+
+    <script>
+        function handleRegionChange() {
+            var region = document.getElementById("regionSelect").value;
+            if(region) {
+                window.location.href = region + ".html";
+                document.getElementById("goButton").innerText = "Loading...";
+            }
+            else {
+                alert("Please select a region to learn more");
+            }
+        }
+    </script>
+</body>
+</html>

@@ -86,6 +86,7 @@ Using CSS frameworks like Bootstrap, Bulma, etc. counts as "incorporating code o
 
 Fill out the following information (edit this ReadMe):
 
-First and Last Name: [Your first and last name]
+First and Last Name: Aryan Choudhary
 
-Deployed Website URL: [Your deployed website URL]
+Deployed Website URL:  `https://comp426spring2024.github.io/a1-html-and-css-aryanc1027`.
+
