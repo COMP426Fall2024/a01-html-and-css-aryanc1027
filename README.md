@@ -88,5 +88,5 @@ Fill out the following information (edit this ReadMe):
 
 First and Last Name: Aryan Choudhary
 
-Deployed Website URL:  `https://comp426spring2024.github.io/a1-html-and-css-aryanc1027`.
+Deployed Website URL: https://comp426fall2024.github.io/a01-html-and-css-aryanc1027/
 
